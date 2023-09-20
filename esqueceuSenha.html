@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Química InovaPro</title>
+    <link rel="icon" href="assets/Quimica.png" type="image/png">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <!--Div do site Inteiro-->
+    <div id="container">
+        
+        <!--Div do Topo-->
+        <div>
+            
+            <!--Div Topo pequeno-->
+            <div id="topo">
+
+                <ul>
+
+                    <li><a href="index.html">Bem Vindo(a)!</a></li>
+                    <li><a href="login.html">Minha Conta</a></li>
+                    <li><a href="login.html">Log-in</a></li>
+                    <li><a href="cadastro.html">Criar Conta</a></li>
+
+                </ul>
+            <!--Fim Div Topo pequeno-->
+            </div>
+            
+            <!--Div topo logo e pesquisa + carrinho-->
+            <div class="meio">
+                <!--Div Imagem-->
+                <aside class="caixaImagem">
+                    <a href="index.html"><img src="assets/Quimica verde.png" id="imagem"></a>
+                <!--Fim Div Imagem-->
+                </aside>
+            
+                <!--Div Caixa de Pesquisa-->
+                <div class="caixaPesquisa" id="espaco">
+
+                    <input type="text" class="pesquisaTexto" placeholder="Pesquisar....">
+                    <a href="" class="pesquisa-btn">Procurar</a>
+                    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+                    
+                <!--Fim Div Caixa de Pesquisa-->
+                </div>
+                
+                <div class="carrinho">
+
+                    <a href="carrinho.html"><span>&#128722</span>Carrinho</a>
+
+                <!--Fim Div Carrinho-->
+                </div>
+
+                <!---Div Dados Empresa-->
+                <div class="idEmpresa">
+
+                    <ul>
+                        
+                        <li><a href="https://api.whatsapp.com/send?phone=5542991186219" target="_blank"><i class="fa fa-whatsapp"> +55 (42)9 9118-6219</i></a></li>
+                        <li><i class="fa fa-check-circle-o" aria-hidden="true"> Produtos Com Garantia</i></li>
+                        <li><i class="fa fa-credit-card" aria-hidden="true"> 12x Nos Cartões</i></li>
+
+                    </ul>
+
+                <!---Fim Div Dados Empresa-->   
+                </div>
+            <!--Fim Div topo logo e pesquisa-->
+            </div>
+            
+            <!--Div Navegacao-->
+
+            <i class="fa fa-bars" aria-hidden="true" id="hamburguer" onclick="clickMenu()"></i>
+            <div class="navegacao" id="nav">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobreEmpresa.html">Empresa</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>        
+        
+                </ul>
+            <!--Fim Div Navegacao-->
+            </div>
+
+
+        <!--Fim Div do Topo-->
+        </div>
+
+        <!--Div do Corpo-->
+        <div class="esqueceuSenha">
+
+            <h1>ESQUECEU SUA SENHA</h1>
+            <h3>Recupere Sua Senha Aqui</h3>
+            <p>Informe Seu E-mail Embaixo. Você irá Receber um E-mail Para Alterar Sua Senha</p>
+            <input type="text" placeholder="Email....">
+            <a href="login.html">Enviar</a>
+
+            
+        <!--Fim Div do Corpo-->
+        </div>
+       
+
+        <!--Div do Rodape-->
+        <div class="roda">
+
+            <ul class="institucional">
+
+                <li><h3>INSTITUCIONAL</h3></li>
+                <li><a href="sobreEmpresa.html">Sobre a InovaPro</a></li>
+                <li><a href="segurancaPrivacidade.html">Segurança e Privacidade</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+
+            <ul id="sobreCompra">
+
+                <h3>SOBRE A COMPRA</h3>
+                <li><a href="comoComprar.html">Como Comprar</a></li>
+                <li><a href="garantia.html">Garantia, Troca e Devolução</a></li>
+
+            </ul>
+
+            <ul id="contato">
+
+                <h3>Contato</h3>
+                <p>Química InovaPro LTDA</p>
+                <p>CNPJ: 00.000.000/0001-00</p>
+                <p>Tel.: +55(42)9 9118-6219</p>
+                <p>E-mail: atendimento@inovapro.com.br</p>
+
+
+            </ul>
+
+            <ul id="endereco">
+
+                <h3>Endereço</h3>
+                <p>Rua Alzira De Abreu, 1040</p>
+                <p>Centro - Cantagalo - PR</p>
+                <a href="https://maps.app.goo.gl/wkK5ex6QMVEUPjaP9" target="_blank">Ver Mapa</a>
+
+            </ul>
+        
+        <!--Fim Div Rodape-->
+        </div>
+        
+        
+
+
+        
+    <!--Fim Div do site Inteiro-->
+    </div>
+
+    <script>
+
+        function clickMenu() {
+
+            if (nav.style.display == 'block') {
+
+                nav.style.display = 'none'
+
+            }else {
+
+                nav.style.display = 'block'
+
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>
