@@ -1194,9 +1194,9 @@ body {
 @media screen and (max-width: 1280px) {
     .galeria {
 
-        height: 260px;
-        margin-bottom: 3%;
-        margin-top: 3%;
+        height: 245px;
+        margin-bottom: 13%;
+        margin-top: 2%;
     }
 }
 
@@ -1256,9 +1256,8 @@ body {
 
     .galeria {
 
-        height: 205px;
-        margin-bottom: 7%;
-        margin-top: 7%;
+        height: 195px;
+        margin-bottom: 21%;
     }
 
     .descricao {
